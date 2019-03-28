@@ -3,4 +3,3 @@ unzip ngrok-stable-linux-386.zip
 chmod a+x ngrok
 python -m SimpleHTTPServer 8080&
 ./ngrok authtoken $AUTHTOKEN
-./ngrok http 8080
